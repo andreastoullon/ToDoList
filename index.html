@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" >
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Tenho todas as fontes do google instaladas na minha maquina-->
+    <!--Baixei google fonts -->
     
 </head>
 <body>
@@ -28,6 +28,7 @@
                         <i class="material-icons">add_circle</i>
                     </button>
                 </div>
+                <button id="cancel-edit-btn" class="material-icons">cancelar</button>
             </form>
             <form id="edit-form" >
             <p> Edite a sua tarefa</p>
@@ -38,9 +39,20 @@
                 </button>
             </div>
             </form>
+            <div id="toolbar">
+                <div id="search">
+                    <h4>Pesquisar:</h4>
+                    <form>
+                        <input type="text" id="search-input" placeholder="Buscar" > 
+                        <button id="erase-button">
+                            <i class="material-icons">delete</i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
 
         </div>
-
     
         
 
