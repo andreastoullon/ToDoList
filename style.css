@@ -1,4 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    color: #050502;
+    box-sizing: border-box;
+}
 
+body{
+    background-image:url("img/job.jpg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
 
+button{
+    background-color: #fdfdfd;
+    color: blueviolet;
+    border: 2px solid #102f5e;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  0.5s;
+    pointer-events: none;
+}
 
+button:hover{
+    background-color: burlywood;
+}
 
+button > i {
+    color: red;
+   
+}
+
+button i {
+    color: aqua;
+    font-weight: bold;
+    
+}
+
+input, select{
+    padding: 0.25rem 0.5rem;
+}
+
+.hide{
+    display: none;
+}
+
+.td-container{
+    max-width: 600px;
+    margin: 3rem auto 0;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
